@@ -1,0 +1,37 @@
+name:                radian
+version:             0.1
+license:             BSD3
+license-file:        LICENCE 
+author:              "Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>"
+maintainer:          "Tony Morris"
+copyright:           
+- "Copyright (C) 2014 NICTA Limited"
+- "Copyright (C) 2018 Commonwealth Scientific and Industrial Research Organisation (CSIRO) ABN 41 687 119 230."
+
+synopsis:            "Isomorphisms for measurements that use radians."
+category:            "Development"
+build-type:          Simple 
+homepage:            "https://github.com/NICTA/radian"
+bug-reports:         "https://github.com/NICTA/radian/issues"
+
+extra-source-files:
+- changelog
+ 
+github: igraves/radian
+
+description:
+    <<http://i.imgur.com/uZnp9ke.png>>
+    .
+    Isomorphisms for measurements that use radians.
+
+library:
+    source-dirs: src
+    dependencies:
+    - base >= 3 && < 5
+    - profunctors >= 3.1.1 && < 5.6
+    default-extensions:
+    - "NoImplicitPrelude"
+    ghc-options:
+    - "-Wall"
+    exposed-modules:
+    - Data.Radian

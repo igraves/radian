@@ -1,5 +1,6 @@
 *~
 *#*
+*.swp
 
 # CABAL
 /dist
@@ -22,3 +23,6 @@
 # ctags
 TAGS
 
+# stack
+.stack-work
+stack.yaml.lock
